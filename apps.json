@@ -1,0 +1,117 @@
+{
+  "folderName": "Productividad",
+  "apps": [
+    {
+      "id": "explorer",
+      "name": "Archivos",
+      "icon": "📁",
+      "type": "command",
+      "target": "explorer.exe"
+    },
+    {
+      "id": "notepad",
+      "name": "Notas",
+      "icon": "📝",
+      "type": "command",
+      "target": "notepad.exe"
+    },
+    {
+      "id": "calc",
+      "name": "Calc",
+      "icon": "🧮",
+      "type": "command",
+      "target": "calc.exe"
+    },
+    {
+      "id": "cmd",
+      "name": "CMD",
+      "icon": "💻",
+      "type": "command",
+      "target": "cmd.exe"
+    },
+    {
+      "id": "mspaint",
+      "name": "Paint",
+      "icon": "🎨",
+      "type": "command",
+      "target": "mspaint.exe"
+    },
+    {
+      "id": "taskmgr",
+      "name": "Tareas",
+      "icon": "📊",
+      "type": "command",
+      "target": "taskmgr.exe"
+    },
+    {
+      "id": "control",
+      "name": "Ajustes",
+      "icon": "⚙️",
+      "type": "command",
+      "target": "control.exe"
+    },
+    {
+      "id": "snipping",
+      "name": "Recorte",
+      "icon": "✂️",
+      "type": "command",
+      "target": "SnippingTool.exe"
+    },
+    {
+      "id": "write",
+      "name": "WordPad",
+      "icon": "📄",
+      "type": "command",
+      "target": "write.exe"
+    },
+    {
+      "id": "edge",
+      "name": "Edge",
+      "icon": "🌐",
+      "type": "command",
+      "target": "msedge.exe"
+    },
+    {
+      "id": "photos",
+      "name": "Fotos",
+      "icon": "📷",
+      "type": "protocol",
+      "target": "ms-photos:"
+    },
+    {
+      "id": "settings",
+      "name": "Windows",
+      "icon": "🪟",
+      "type": "protocol",
+      "target": "ms-settings:"
+    },
+    {
+      "id": "store",
+      "name": "Store",
+      "icon": "🛍️",
+      "type": "protocol",
+      "target": "ms-windows-store:"
+    },
+    {
+      "id": "clock",
+      "name": "Reloj",
+      "icon": "⏰",
+      "type": "protocol",
+      "target": "ms-clock:"
+    },
+    {
+      "id": "maps",
+      "name": "Mapas",
+      "icon": "🗺️",
+      "type": "protocol",
+      "target": "bingmaps:"
+    },
+    {
+      "id": "media",
+      "name": "Videos",
+      "icon": "🎬",
+      "type": "command",
+      "target": "wmplayer.exe"
+    }
+  ]
+}
