@@ -1,0 +1,70 @@
+{
+  "name": "foldr",
+  "version": "1.0.0",
+  "description": "HyperOS-style floating folders for Windows. Electron-based desktop launcher with real icons, drag-and-drop apps, and system tray support.",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:portable": "electron-builder --win --portable",
+    "pack": "npm run build"
+  },
+  "author": {
+    "name": "Franco Morales González",
+    "email": "franquitomoralesg@protonmail.com",
+    "url": "https://github.com/franquitomoralesg-svg"
+  },
+  "license": "MIT",
+  "keywords": [
+    "electron",
+    "windows",
+    "launcher",
+    "hyperos",
+    "hyperos-folders",
+    "floating-folders",
+    "desktop-widget",
+    "drag-and-drop",
+    "productivity-tool",
+    "app-launcher",
+    "system-tray",
+    "glassmorphism",
+    "electron-app"
+  ],
+  "homepage": "https://github.com/franquitomoralesg-svg/Foldr#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franquitomoralesg-svg/Foldr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franquitomoralesg-svg/Foldr/issues"
+  },
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.0"
+  },
+  "build": {
+    "appId": "com.foldr.app",
+    "productName": "Foldr",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": ["nsis", "portable"],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "portable": {
+      "artifactName": "Foldr-Portable-${version}.exe"
+    }
+  }
+}
